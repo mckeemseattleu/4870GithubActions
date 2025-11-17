@@ -19,10 +19,10 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore ./HelloWorldApp/HelloWorldApp.csproj
+        run: dotnet restore ./4870GithubActions.csproj
 
       - name: Build application
-        run: dotnet build ./HelloWorldApp/HelloWorldApp.csproj --configuration Release
+        run: dotnet build ./4870GithubActions.csproj --configuration Release
 
       - name: Run application
-        run: dotnet run --project ./HelloWorldApp/HelloWorldApp.csproj --configuration Release
+        run: dotnet run --project ./4870GithubActions.csproj --configuration Release
